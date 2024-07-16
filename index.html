@@ -3,8 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
     <title>Others also viewed</title>
+    <style>
+        /* Basic styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #212121;
+    margin: 10px;
+}
+
+.slider-container {
+    padding: 10px 0;
+    width: 100%;
+    position: relative;
+}
+
+.slides-wrapper {
+    margin: auto;
+    overflow: hidden;
+    width: 92%;
+}
+
+.slides-container {
+    padding: 0 10px;
+}
+
+.slider-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    transition: 1s;
+}
+
+.slider-item {
+    margin: 0 16px 0px 0;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.slider-item img {
+    width: 100%;
+}
+
+.slider-item .product-info {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.slider-item .old-price {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.slider-item .new-price {
+    color: red;
+    font-weight: bold;
+}
+
+.slider-arrows {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    padding: 0 10px;
+    margin-top: 10px;
+    position: absolute;
+    width: 100%;
+    top: 44%;
+}
+
+.slider-arrow-prev,
+.slider-arrow-next {
+    border: none;
+    background-color: transparent;
+    color: #212121;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+li.slider-item button {
+    width: 100%;
+    padding: 10px 0;
+    background: #0aa794;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+span.original-price {
+    color: red;
+    text-decoration: line-through;
+}
+.others-also-viewed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+    </style>
 </head>
 <body>
     <div class="others-also-viewed">
@@ -12,17 +120,56 @@
         <div class="slider-container" id="products-slider">
             <div class="slides-wrapper">
                 <div class="slides-container">
-                    <ul class="slider-list" id="slider-list">
+                    <ul class="slider-list">
+                        <li class="slider-item">
+                            <img src="https://myer-media.com.au/wcsstore/MyerCatalogAssetStore/images/70/705/3259/10/1/153575380/153575380_1_720x928.jpg" alt="Product 1">
+                            <p class="product-title">DC Anvil Shoes in Blue</p>
+                            <p class="product-price"><span class="original-price">$99.99</span> <span class="discounted-price">$69.99</span></p>
+                            <button class="add-to-cart">Add to cart</button>
+                        </li>
+                        <li class="slider-item">
+                            <img src="https://myer-media.com.au/wcsstore/MyerCatalogAssetStore/images/70/705/3259/10/1/153575380/153575380_1_720x928.jpg" alt="Product 2">
+                            <p class="product-title">DC Anvil Shoes in Black</p>
+                            <p class="product-price">$79.99</p>
+                            <button class="add-to-cart">Add to cart</button>
+                        </li>
+                        <li class="slider-item">
+                            <img src="https://myer-media.com.au/wcsstore/MyerCatalogAssetStore/images/70/705/3259/10/1/153575380/153575380_1_720x928.jpg" alt="Product 3">
+                            <p class="product-title">DC Anvil Canvas Shoes in Blue</p>
+                            <p class="product-price"><span class="original-price">$89.99</span> <span class="discounted-price">$62.99</span></p>
+                            <button class="add-to-cart">Add to cart</button>
+                        </li>
+                        <li class="slider-item">
+                            <img src="https://myer-media.com.au/wcsstore/MyerCatalogAssetStore/images/70/705/3259/10/1/153575380/153575380_1_720x928.jpg" alt="Product 4">
+                            <p class="product-title">DC Anvil Canvas Shoes in Multi</p>
+                            <p class="product-price">$89.99</p>
+                            <button class="add-to-cart">Add to cart</button>
+                        </li>
+                        <li class="slider-item">
+                            <img src="https://myer-media.com.au/wcsstore/MyerCatalogAssetStore/images/70/705/3259/10/1/153575380/153575380_1_720x928.jpg" alt="Product 5">
+                            <p class="product-title">DC Stag Shoes in White</p>
+                            <p class="product-price"><span class="original-price">$109.99</span> <span class="discounted-price">$76.99</span></p>
+                            <button class="add-to-cart">Add to cart</button>
+                        </li>
+                        <li class="slider-item">
+                            <img src="https://myer-media.com.au/wcsstore/MyerCatalogAssetStore/images/70/705/3259/10/1/153575380/153575380_1_720x928.jpg" alt="Product 6">
+                            <p class="product-title">DC Stag Shoes in White/Black/Orange</p>
+                            <p class="product-price"><span class="original-price">$109.99</span> <span class="discounted-price">$76.99</span></p>
+                            <button class="add-to-cart">Add to cart</button>
+                        </li>
+                       
                     </ul>
                 </div>
             </div>
             <div class="slider-arrows">
                 <button type="button" class="slider-arrow-prev">
+                    <!-- arrow icon -->
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                         <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"></path>
                     </svg>
                 </button>
                 <button type="button" class="slider-arrow-next">
+                    <!-- arrow icon -->
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                         <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
                     </svg>
