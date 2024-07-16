@@ -1,0 +1,47 @@
+[
+    {
+        "image": "https://myer-media.com.au/wcsstore/MyerCatalogAssetStore/images/70/705/3259/10/1/153575380/153575380_1_720x928.jpg",
+        "title": "DC Anvil Shoes in Blue",
+        "price": "$99.99",
+        "discountedPrice": "$69.99"
+    },
+    {
+        "image": "https://myer-media.com.au/wcsstore/MyerCatalogAssetStore/images/70/705/3259/10/1/153575380/153575380_1_720x928.jpg",
+        "title": "DC Anvil Shoes in Black",
+        "price": "$79.99"
+    },
+    {
+        "image": "https://myer-media.com.au/wcsstore/MyerCatalogAssetStore/images/70/705/3259/10/1/153575380/153575380_1_720x928.jpg",
+        "title": "DC Anvil Canvas Shoes in Blue",
+        "price": "$89.99",
+        "discountedPrice": "$62.99"
+    },
+    {
+        "image": "https://myer-media.com.au/wcsstore/MyerCatalogAssetStore/images/70/705/3259/10/1/153575380/153575380_1_720x928.jpg",
+        "title": "DC Anvil Canvas Shoes in Multi",
+        "price": "$89.99"
+    },
+    {
+        "image": "https://myer-media.com.au/wcsstore/MyerCatalogAssetStore/images/70/705/3259/10/1/153575380/153575380_1_720x928.jpg",
+        "title": "DC Stag Shoes in White",
+        "price": "$109.99",
+        "discountedPrice": "$76.99"
+    },
+    {
+        "image": "https://myer-media.com.au/wcsstore/MyerCatalogAssetStore/images/70/705/3259/10/1/153575380/153575380_1_720x928.jpg",
+        "title": "DC Anvil Canvas Shoes in Blue",
+        "price": "$89.99",
+        "discountedPrice": "$62.99"
+    },
+    {
+        "image": "https://myer-media.com.au/wcsstore/MyerCatalogAssetStore/images/70/705/3259/10/1/153575380/153575380_1_720x928.jpg",
+        "title": "DC Anvil Canvas Shoes in Multi",
+        "price": "$89.99"
+    },
+    {
+        "image": "https://myer-media.com.au/wcsstore/MyerCatalogAssetStore/images/70/705/3259/10/1/153575380/153575380_1_720x928.jpg",
+        "title": "DC Stag Shoes in White",
+        "price": "$109.99",
+        "discountedPrice": "$76.99"
+    }
+]

@@ -109,9 +109,10 @@ header nav a {
 li.slider-item button {
     width: 100%;
     padding: 10px 0;
-    background: yellow;
+    background: #0aa794;
     border: none;
     border-radius: 5px;
+    color: white;
 }
 
 span.original-price {
@@ -124,3 +125,4 @@ span.original-price {
     justify-content: center;
     align-items: center;
 }
+
